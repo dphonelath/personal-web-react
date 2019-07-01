@@ -10,6 +10,7 @@ app.use(express.static(`${__dirname}/../react-client/dist`))
 
 
 app.get('*', (req, res) => {
+    console.log('hello')
     res.sendFile(path.resolve(`${__dirname}/../react-client/dist/index.html`))
 })
 
