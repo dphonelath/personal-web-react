@@ -1,0 +1,33 @@
+{
+  "name": "personal-web-react",
+  "version": "1.0.0",
+  "description": "Personal website in React.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "start": "node ./server/index.js",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dphonelath/personal-web-react.git"
+  },
+  "author": "Daniel Phonelath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dphonelath/personal-web-react/issues"
+  },
+  "homepage": "https://github.com/dphonelath/personal-web-react#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "webpack": "^4.35.2"
+  }
+}
