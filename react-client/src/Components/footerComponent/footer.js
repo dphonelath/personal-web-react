@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
         <footer>
             <div>
-            Footer component
+                Footer component
             </div>
         </footer>
         )
