@@ -6,7 +6,9 @@ const Navigation = () => {
         <div>
             <header>
                 <Link to='/' >Home</Link>
-                <Link to='/products' >Products</Link>
+                <Link to='/products' >Projects</Link>
+                <Link to='#'>Blog</Link>
+                <Link to='#'>Timeline</Link>
             </header>
         </div>
     )
